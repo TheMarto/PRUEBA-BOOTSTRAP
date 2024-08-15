@@ -1,0 +1,27 @@
+#######  bootstrap  #########
+
+//filas y dentro columas y todo tiene que ir en las class
+primero el conteiner luego en las "row" y luego las "col" y las col van a 1 a 12
+
+//tamanos y de arriba a abajo
+col >> mas pequeno
+col-sm
+col-dm 
+col-lg
+col-xl
+col-xxl >> mas grande
+(esto segudio de -X que es cuanto espacio le daremos )
+
+con row-cols-X podemos decirle que para cada fila el numero de columnas sera X
+
+//NOTA div.col crea el div con la clase col y .col*3{columna $} crea tres divs con la palabra columna y el nunmero segudio desde el 1 al n
+
+//alinear columna verticalmente
+Para lod divs align-items- y segudio de start, center o end para que se ubique
+Ademas con align-self- y seguido de start, center oend puedes alinear el elemnente en vez de todo el div
+
+//alnear columna horizontalmente
+Con justify-content- y con start, center,end, around, between o evenly se agrupan
+
+//espaciado o gutters
+con g-0 se quita (tambien hay gx y gy pero el que mas se usa es g solo)
