@@ -1,4 +1,8 @@
-#######  bootstrap  #########
+##########################  bootstrap  ##########################
+
+
+#####  SECCION 2: GRID DE BOOTSTRAP  #####
+
 
 //filas y dentro columas y todo tiene que ir en las class
 primero el conteiner luego en las "row" y luego las "col" y las col van a 1 a 12
@@ -17,7 +21,7 @@ con row-cols-X podemos decirle que para cada fila el numero de columnas sera X
 //NOTA div.col crea el div con la clase col y .col*3{columna $} crea tres divs con la palabra columna y el nunmero segudio desde el 1 al n
 
 //alinear columna verticalmente
-Para lod divs align-items- y segudio de start, center o end para que se ubique
+Para los divs align-items- y segudio de start, center o end para que se ubique
 Ademas con align-self- y seguido de start, center oend puedes alinear el elemnente en vez de todo el div
 
 //alnear columna horizontalmente
@@ -32,3 +36,5 @@ además en vez de 1 al 4 podemos usar first o last para inicio o final
 
 además se puede usar offset-(sm,xl, etc)-(1-12) para dejar espacio entre la columna y la parte de la izquierda
 
+//activar o desactivar segun tamano
+usamos d-none para no ver (cualquier tamano) y por ejemplo d-md-block para ver luego de md (none no ver y block es ver)
