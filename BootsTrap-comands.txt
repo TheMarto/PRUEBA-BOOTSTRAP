@@ -25,3 +25,10 @@ Con justify-content- y con start, center,end, around, between o evenly se agrupa
 
 //espaciado o gutters
 con g-0 se quita (tambien hay gx y gy pero el que mas se usa es g solo)
+
+//Orden de columnas
+con order-md-1 (del 1 al 4) para cambiar el orden y depende de tamaño también
+además en vez de 1 al 4 podemos usar first o last para inicio o final
+
+además se puede usar offset-(sm,xl, etc)-(1-12) para dejar espacio entre la columna y la parte de la izquierda
+
