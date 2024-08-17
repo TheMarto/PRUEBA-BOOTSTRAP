@@ -16,9 +16,9 @@ col-xl
 col-xxl >> mas grande
 (esto segudio de -X que es cuanto espacio le daremos )
 
+//manipulacion con fila
 con row-cols-X podemos decirle que para cada fila el numero de columnas sera X
 
-//NOTA div.col crea el div con la clase col y .col*3{columna $} crea tres divs con la palabra columna y el nunmero segudio desde el 1 al n
 
 //alinear columna verticalmente
 Para los divs align-items- y segudio de start, center o end para que se ubique
@@ -38,3 +38,55 @@ además se puede usar offset-(sm,xl, etc)-(1-12) para dejar espacio entre la col
 
 //activar o desactivar segun tamano
 usamos d-none para no ver (cualquier tamano) y por ejemplo d-md-block para ver luego de md (none no ver y block es ver)
+
+
+
+#####  SECCION 3: Tipografia  #####
+
+ //Tipografia
+ clases h1, h2, etc., ademas se puede usar display-1, 2, etc y que sea como el h1
+ 
+ text-center centra texto y si usamos 
+
+ para pie de pagina usamos class blockquote y blockquote-footer para citar
+ como extra se puede usar <cite></cite> y encierras el titulo de lo que se escribe
+
+marcas html:
+    mark >> marca el texto encerrado
+    del y s >> tachan
+    ins y u >> subrayan
+    strong >> se pone en negrita
+    em >> inclina a la derecha
+
+clases:
+    fw- y seguido de bold, normnal o light para negrita, normal o leve en las letras
+    fst- y seguido del nombre del estilo cambia el estilo de letras 
+    text-decoration- y seguido de underline, line-through o none genera subrayado, tachado o quitar el subrayado (ej. href)
+
+alineacion de texto:
+    text- y seguido de vacio, sm, md, lg, etc para tamano y luego start, center o end para izquierda, centro o derecha respectivamente
+
+tamano de texto:
+    primero las mayus y minus:
+        text- y seguido de lowercase, uppercase o capitalize para minusculas, mayusculas o mayusculas las primeras
+    luego para el tamano de letra fs- 1 al 6 para cambiar su tamano como en h1, 2 y 3 y en display- 1, 2, etc pero de texto normal
+
+Colores de textos:
+    text- seguido con primary, secondary, success, danger, dark, body, muted para azul, gris, verde, rojo, negro, negro y gris
+    ademas de esos tenemos -warning, info, light y white para amarillo, azul claro, transparente y blanco
+    por ultimo en colores con bg-dark le ponemos fondo negro como mi alma
+    
+
+
+
+
+
+
+
+
+
+ //NOTAS
+ div.col crea el div con la clase col y .col*3{columna $} crea tres divs con la palabra columna y el nunmero segudio desde el 1 al n
+ text-muted crea la palabra como en gris 
+ <hr> da un espacio y crea una linea de separacion
+ blockquote y figcaption son contenedores que no se la diferencia con div por ejemplo
