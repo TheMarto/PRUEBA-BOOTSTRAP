@@ -43,7 +43,8 @@ usamos d-none para no ver (cualquier tamano) y por ejemplo d-md-block para ver l
 
 #####  SECCION 3: Tipografia  #####
 
- //Tipografia
+            //Tipografia
+
  clases h1, h2, etc., ademas se puede usar display-1, 2, etc y que sea como el h1
  
  text-center centra texto y si usamos 
@@ -75,7 +76,37 @@ Colores de textos:
     text- seguido con primary, secondary, success, danger, dark, body, muted para azul, gris, verde, rojo, negro, negro y gris
     ademas de esos tenemos -warning, info, light y white para amarillo, azul claro, transparente y blanco
     por ultimo en colores con bg-dark le ponemos fondo negro como mi alma
-    
+
+
+            //imagenes
+
+orden:
+    img-fluid >> hace que la img quede en la columna indicada y no ocupe mas espacio que ese
+    float- y seguido de start, center o end ordena 
+
+visual:
+    img-thumbnail genera un borde a las imagenes
+    reunded genera bordes levemente redondeados
+    figure para la etiqueta figure centra el texto y el texto en figcaption
+    en figcaption se usa figure-caption de class y junto con text-center para la p tenemos el texto anexado a la img
+
+
+        //Tablas
+        hay que poner la clase table en la etiqueta tabla
+colores:
+    table-  primary, secondary, success, danger, dark, warning, info, light para los colores como antes visto
+    con table-striped hacemos que intercalamos filas que tengan colores para poder leerlas mejor (blanco, oscuro, blanco, etc)
+
+    table-hover para que cuando pasemos el cursor cambie de color y se resalte la fila
+
+Responsive:
+    table-responsive hacemos que sea responsive y que cuando hacemnos pequeno la barra de deszplazar este debajode la tabla
+    table-sm hacemos que cuando lo hagamos pequeno quite los espacios que no se usan 
+
+
+
+
+
 
 
 
