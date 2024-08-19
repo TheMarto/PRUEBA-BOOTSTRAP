@@ -105,9 +105,25 @@ Responsive:
 
 
 
+        //COLLAPSE
+
+show PARA QUE INICIE VIENDOSE
+la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambiando el titulo y el p
+
+        //Alertas
+    alert se comienza con ello en el div principal
+    alert-danger (primery, secondary, light, info, etc) da el color dependiendo de lo que necesitemos (en el principal)
+    alert-link en un a con href para que se vea igual a lo demaś
+    alert-dismissible fade show esto se crea en un div con el button con class btn-close y data-bs-dismiss="alert" para poner una X y que se quite
 
 
+        //Etiqueta
+    badge bg-primary hacemos que tenga el estilo y el color
+    rounded-pill genera un estilo con borde redondeado
 
+        //Bread Crumbs o migas de pan
+        Son las rutas y se puede hacer click en ellas, se crea así:
+        breadcrumb en un div principal y luego breadcrumb-item en un nav cuantos necesitemos
 
 
 
