@@ -121,3 +121,4 @@ Responsive:
  text-muted crea la palabra como en gris 
  <hr> da un espacio y crea una linea de separacion
  blockquote y figcaption son contenedores que no se la diferencia con div por ejemplo
+ ctr + shift + p >> escribimos "wrap" >> escribimos la etiqueta y marca con etiqueta lo que tenemos marcado en el texto
