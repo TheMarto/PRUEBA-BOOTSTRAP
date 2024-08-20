@@ -125,6 +125,14 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
         Son las rutas y se puede hacer click en ellas, se crea así:
         breadcrumb en un div principal y luego breadcrumb-item en un nav cuantos necesitemos
 
+        
+        //botones
+    btn btn-primary o secondary, danger, info, etc para colores y lo primero es para indicar que es boton
+    btn-outline-primary para que no esté relleno y se rellene al pasar el cursor y con text-dark se le puede dar letras en negro
+    con disabled se lo puede dejar en opaquito
+    btn-lg o sm etc se le puede dar otro tamaño 
+    justify-content-between, center, end se le da la ubicación que querramos 
+    
 
 
 
