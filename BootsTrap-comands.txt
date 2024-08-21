@@ -132,7 +132,28 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     con disabled se lo puede dejar en opaquito
     btn-lg o sm etc se le puede dar otro tamaño 
     justify-content-between, center, end se le da la ubicación que querramos 
+
+        //Cards o Tarjetas
+    card es la primera clase con el div
+    luego va el card-body y dentro de esta puede ir card-title, subtitle, text, link, img-top, img-bottom 
+    si le damos en class active se pone en el a del li (dentro del ul)
+
+    links de arriba:
+        nav nav-tabs card-header-tabs para cabecera (dentro de card, card-herder) en el ul luego li con nav-item y luego un a con nav-link y activo si queremos
+
+
+        //Carousel
+    divs con carousel slide luego carousel-inner luego carousel-item active e iran las img allí (los demás sin actice)
+    img-fluid para ocupar todo el div
     
+    la parte de los botones:
+    son varias cosas y mejor copiar y lo mismo para el indicador entre class, data-bs, etc
+
+    
+
+
+
+
 
 
 
