@@ -145,11 +145,13 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
         //Carousel
     divs con carousel slide luego carousel-inner luego carousel-item active e iran las img allí (los demás sin actice)
     img-fluid para ocupar todo el div
-    
+    data-bs-interval y el numero en ms para la velocidad
+
+
     la parte de los botones:
     son varias cosas y mejor copiar y lo mismo para el indicador entre class, data-bs, etc
 
-    
+
 
 
 
