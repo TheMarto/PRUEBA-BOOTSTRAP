@@ -179,6 +179,8 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     form-check-input para el input pero
     pudemos usar btn btn-primary (color) para el label para que se vea como btn y btn-check para el input
 
+        //
+
 
 
 
@@ -190,3 +192,4 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
  <hr> da un espacio y crea una linea de separacion
  blockquote y figcaption son contenedores que no se la diferencia con div por ejemplo
  ctr + shift + p >> escribimos "wrap" >> escribimos la etiqueta y marca con etiqueta lo que tenemos marcado en el texto
+ ctr + d para ir a linea donde se repite lo marcado
