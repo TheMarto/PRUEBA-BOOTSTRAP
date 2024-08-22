@@ -165,7 +165,12 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     form-control para los input en el form no lleva nada
     form-text para el texto
     form-label para el label
+    disabled o readonly para que no se pueda escribir o para que solo lectura (permite copiar lo escrito)
+    textarea como etiqueta para html y creamos area de escribir con la class anteriormente dicha
 
+    para select como etiqueta para una pestaña de seleccionar se usa form-select
+    para el tamaño como en el anterior se usa form-select-lg grande y pequeño sm
+    Ojo si en el select le agregamos multiple size="5" podemos hacer que tenga como una lista y seleccionar allí y más de uno
 
 
 

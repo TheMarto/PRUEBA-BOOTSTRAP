@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TITULO</title>
+    <title>SelectBox</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <style>
 
@@ -13,8 +13,39 @@
 <body>
     
     <div class="container">
-        <div class="row">
-         //codigo
+        <div class="row mt-3">
+            <div class="col 12">
+                <select name="coutries" id="countries" class="form-select">
+                    <option value="Spain">Spain</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+                <hr>
+                <select name="coutries" id="countries" class="form-select form-select-lg">
+                    <option value="Spain">Spain in big</option>
+                    <option value="Mexico">Mexico in big</option>
+                    <option value="Colombia">Colombia in big</option>
+                </select>
+                <hr>
+                <select name="coutries" id="countries" class="form-select form-select-sm">
+                    <option value="Spain">Spain in small</option>
+                    <option value="Mexico">Mexico in small</option>
+                    <option value="Colombia">Colombia in small</option>
+                </select>
+                <hr>
+                <select multiple size="5" name="coutries" id="countries" class="form-select form-select-sm">
+                    <option value="Spain">Spain in small</option>
+                    <option value="Mexico">Mexico in small</option>
+                    <option value="Colombia">Colombia in small</option>
+                    <option value="EEUU">EEUU</option>
+                    <option value="UK">UK</option>
+                    <option value="IRELAND">Ireland</option>
+                    <option value="ARGENTINA">Argentina</option>
+                </select>
+                <hr>
+                
+
+            </div>
         </div>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
