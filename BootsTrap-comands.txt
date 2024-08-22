@@ -172,6 +172,13 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     para el tamaño como en el anterior se usa form-select-lg grande y pequeño sm
     Ojo si en el select le agregamos multiple size="5" podemos hacer que tenga como una lista y seleccionar allí y más de uno
 
+        //siwtch, radios y checkbox
+    para tener en linea en clas form-check-inline
+    form-check form-switch para el switch en en el class del div
+    form-check-label para el label (input primero y luego lavel dentro del div grande o individual)
+    form-check-input para el input pero
+    pudemos usar btn btn-primary (color) para el label para que se vea como btn y btn-check para el input
+
 
 
 
