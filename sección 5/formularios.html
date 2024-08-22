@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITULO</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+         <div class="col-6">
+            <form action="">
+            <div class="mb-3">
+                <label for="correo" class="form-label">Email</label>
+                <input type="text" class="form-control" id="correo" placeholder="Email">
+                <div class="form-text" id="ayuda-correo">
+                    We send you an email for confimation
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Message</label>
+                <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Message"></textarea>
+            </div>
+
+            <button class="btn btn-info">Send Message</button>
+        </form>
+         </div>
+         <!-- Parte derecha-->
+          <div class="col-6 mt-3">
+            <form action="">
+                <input type="text" class="form-control form-control-xl mb-3" placeholder="Input Grande">
+                <input type="text" class="form-control form-control-sm mb-3" placeholder="Input Pequeña">
+                <input type="text" class="form-control mb-3" placeholder="Input Deshabilitado" disabled>
+                <input type="text" class="form-control mb-3" placeholder="Input solo lectura" readonly>
+                <input type="text" class="form-control-plaintext mb-3" placeholder="Input solo lectura diferente" readonly>
+                <input type="file" class="form-control">
+            </form>
+          </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

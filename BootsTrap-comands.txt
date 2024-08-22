@@ -1,7 +1,7 @@
-##########################  bootstrap  ##########################
+            ##########################  bootstrap  ##########################
 
 
-#####  SECCION 2: GRID DE BOOTSTRAP  #####
+                    #####  SECCION 2: GRID DE BOOTSTRAP  #####
 
 
 //filas y dentro columas y todo tiene que ir en las class
@@ -41,7 +41,7 @@ usamos d-none para no ver (cualquier tamano) y por ejemplo d-md-block para ver l
 
 
 
-#####  SECCION 3: Tipografia  #####
+                    #####  SECCION 3: Tipografia  #####
 
             //Tipografia
 
@@ -105,6 +105,9 @@ Responsive:
 
 
 
+                    #####  SECCION 4: Componentes  #####
+
+
         //COLLAPSE
 
 show PARA QUE INICIE VIENDOSE
@@ -152,10 +155,16 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     son varias cosas y mejor copiar y lo mismo para el indicador entre class, data-bs, etc
 
 
+        //collapse o botones con Cards
+    en un a o button hay que poner el href con el id de la card que queremos y esta card tiene que estar en un div con class llamada collapse
 
 
+                    #####  SECCION 5: Formularios  #####
 
-
+        //Formulareios o forms
+    form-control para los input en el form no lleva nada
+    form-text para el texto
+    form-label para el label
 
 
 
