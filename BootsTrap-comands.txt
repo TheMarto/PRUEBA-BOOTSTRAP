@@ -190,7 +190,20 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     form-control para los input class
     form-select para select y luego option para seleccionar y queda todo junto
     input-group-text para que es un span class y dice algo fijo en un lado por ejemplo
-    
+
+
+        //floating labels (lo que dice dentro del input que se hace pequeño al tocar)
+    div con form-floating en class general
+    form-control para input, textarea
+    form-select para select
+    debajo de estos label con el nombre (no olvidar el placeholder y que sean iguales)
+    OJO label debajo del input, select, etc y placeholder y label con mismo nombre
+
+        
+
+
+
+
 
 
 
