@@ -199,8 +199,11 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     debajo de estos label con el nombre (no olvidar el placeholder y que sean iguales)
     OJO label debajo del input, select, etc y placeholder y label con mismo nombre
 
-        
+        //Validatios
+    is-valid para indicar en la class del input que es valido con una check
+    valid-feedback para poner la letra en verde indicando algo correcto
 
+    is-invalid y invalid-feedback para lo contrario de lo anterior
 
 
 

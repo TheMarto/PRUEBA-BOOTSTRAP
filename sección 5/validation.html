@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TITULO</title>
+    <title>Validations</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <style>
 
@@ -13,8 +13,25 @@
 <body>
     
     <div class="container">
-        <div class="row">
-         //codigo
+        <div class="row mt-5">
+            <div class="col-6">
+                 <form action="">
+                    <div class="form-floating">
+                        <input type="text" class="form-control is-valid" id="name" name="name" placeholder="Name">
+                        <label for="name" class="form-label">Name</label>
+                        <p class="valid-feedback">Correct!</p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <form action="">
+                   <div class="form-floating">
+                       <input type="email" class="form-control is-invalid" id="email" name="email" placeholder="Correo@correo.es">
+                       <label for="name" class="form-label">Name</label>
+                       <p class="invalid-feedback">Error! invalid email</p>
+                   </div>
+               </form>
+           </div>
         </div>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
