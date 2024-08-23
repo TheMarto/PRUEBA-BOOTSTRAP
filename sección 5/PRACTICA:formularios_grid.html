@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA FORMULARIOS</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+         <div class="col">
+            <form action="">
+            <div class="row">
+                <div class="col-12 col-sm-6 mt-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Martin Ganz" id="name">
+                </div>
+
+                <div class="col-12 col-sm-6 mt-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="correo@correo.com">
+                </div>
+            </div>
+            <hr class="mt-3">
+            <div class="row">
+                <div class="col-12 col-sm-6 mt-3">
+                    <label for="menssage" class="form-label">menssage</label>
+                    <textarea name="message" id="message" class="form-control" rows="6"></textarea>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mt-3">
+                            <labbel class="form-label">Maritial status</labbel>
+                            <div class="form-check mt-3">
+                                <input type="radio" id="alone" name="status" class="form-check-input">
+                                <label for="alone" class="form-check-label">Alone</label>
+                            </div>
+                            <div class="form-check mt-3">
+                                <input type="radio" id="married" name="status" class="form-check-input">
+                                <label for="married" class="form-check-label">married</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mt-3">
+                            <label for="" class="form-label">Countries</label>
+                            <select name="countries" id="countries" class="form-select">
+                                <option value="Spain">Spain</option>
+                                <option value="UK">UK</option>
+                                <option value="USA">USA</option>
+                                <option value="Mexico">Mexico</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <hr class="mt-3">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                <div>
+                    <div class="form-check mt-3">
+                        <input type="checkbox" id="conditions" class="form-check-input">
+                        <label for="conditions" class="form-check-label">I accept Terms and conditions</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark col-12">submit</button>
+                </div>
+                </div>
+            </div>
+
+        </form>
+         </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
