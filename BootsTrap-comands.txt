@@ -179,6 +179,11 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     form-check-input para el input pero
     pudemos usar btn btn-primary (color) para el label para que se vea como btn y btn-check para el input
 
+        //Range o barra con rango 
+    form-label para el label
+    en el input range en type y en el class form-range además se le puede min, max y step para el movimiento
+
+
         //
 
 
