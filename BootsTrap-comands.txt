@@ -184,7 +184,13 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     en el input range en type y en el class form-range además se le puede min, max y step para el movimiento
 
 
-        //
+        //Grupos de inputs
+    Está muy bueno para Formularios
+    input-group para el class del div general
+    form-control para los input class
+    form-select para select y luego option para seleccionar y queda todo junto
+    input-group-text para que es un span class y dice algo fijo en un lado por ejemplo
+    
 
 
 
