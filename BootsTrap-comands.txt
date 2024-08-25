@@ -205,7 +205,24 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
 
     is-invalid y invalid-feedback para lo contrario de lo anterior
 
+        //DropDowns o desplegables
+    dropdown para div principal
+    dropdown-toggle para button asi tenemos la flecha
+    data-bs-toggle="dropdown" para que sepa bootstrap
+    nota se los puede agrupar pero no veo gran usamos
+    en el ul dropdown-menu dropdown-menu-dark (con fondo negro sino sin eso) y en el li dropdown-item
+    dropup par que se abra para arriba
+    dropstart o end para que se abra al inicio o fin del boton
+    dropdown-header para un li que querramos para titulo
 
+        //List 
+    list-group en el ul y en el li list-group-item
+    si usamos a en vez de li hay que usar list-group-item list-group-item-action
+    list-group-flush si no queremos bordes
+    list-group-item-primary y color que querramos para el li o a
+    se pueden crear etiquetas bonitas con esto y links (ver list-group)
+
+        //
 
 
 

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <!--  DROPDOWN WITH BUTTON-->
+                <div class="dropdown">
+                    <button 
+                    class="btn btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdown-1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >
+                        Button Dropdown
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                        <li><a href="" class="dropdown-item">Element 1</a></li>
+                        <li><a href="" class="dropdown-item">Element 2</a></li>
+                        <li><a href="" class="dropdown-item">Element 3</a></li>
+
+                    </ul>
+
+                </div>
+
+                <hr class="mt-3">
+
+                <!--  DROPDOWN WITH LINK-->
+                <div class="dropdown">
+                    <a 
+                    href=""
+                    class="btn btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdown-w"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >
+                        Link Dropdown
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-w">
+                        <li><a href="" class="dropdown-item">Element 1</a></li>
+                        <li><a href="" class="dropdown-item">Element 2</a></li>
+                        <li><a href="" class="dropdown-item">Element 3</a></li>
+
+                    </ul>
+
+                </div>
+
+                <hr class="mt-3">
+
+                <!--  DROPDOWN Split (dos bottones y uno con flecha)-->
+                <div class="dropdown">
+                    <div class="btn-group">
+                        <button class="btn btn-success">Button</button>
+                        <button 
+                        class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                        type="button"
+                        id="dropdown-1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        ></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="" class="dropdown-item">Element 1</a></li>
+                            <li><a href="" class="dropdown-item">Element 2</a></li>
+                            <li><a href="" class="dropdown-item">Element 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="mt-3">
+
+                <!--  DROPDOWN WITH BUTTON in dark mode-->
+                <div class="dropdown">
+                    <button 
+                    class="btn btn-dark dropdown-toggle"
+                    type="button"
+                    id="dropdown-1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >
+                        Button Dropdown
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                        <li><a href="" class="dropdown-item">Element 1</a></li>
+                        <li><a href="" class="dropdown-item">Element 2</a></li>
+                        <li><a href="" class="dropdown-item">Element 3</a></li>
+
+                    </ul>
+
+                </div>
+
+                <hr class="mt-3">
+
+                <!--  DROPDOWN WITH BUTTON BIG AND SMALL (LG OR SM)-->
+                <div class="dropdown">
+                    <button 
+                    class="btn btn-lg btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdown-1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >
+                        Button Dropdown
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                        <li><a href="" class="dropdown-item">Element 1</a></li>
+                        <li><a href="" class="dropdown-item">Element 2</a></li>
+                        <li><a href="" class="dropdown-item">Element 3</a></li>
+
+                    </ul>
+
+                </div>
+
+                <hr>
+                
+                <div class="row pt-5">
+                    <div class="col">
+                                <div class="btn-group gap-2">
+                                    <!--  DROPDUP-->
+                                    <div class="dropup">
+                                        <button 
+                                            class="btn btn-primary dropdown-toggle"
+                                            type="button"
+                                            id="dropup-1"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                         >
+                                            DropUp
+                                        </button>
+                                    
+                                        <ul class="dropdown-menu" aria-labelledby="dropup-1">
+                                            <li><a href="" class="dropdown-item">Element 1</a></li>
+                                            <li><a href="" class="dropdown-item">Element 2</a></li>
+                                            <li><a href="" class="dropdown-item">Element 3</a></li>
+                                    
+                                        </ul>
+                                    
+                                    </div>
+                                    
+                                    <!--DropDown Left/start-->
+                                    
+                                     <div class="dropstart">
+                                        <button 
+                                        class="btn btn-primary dropdown-toggle"
+                                        type="button"
+                                        id="dropstart-1"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                        >
+                                            DropStart
+                                        </button>
+                                    
+                                        <ul class="dropdown-menu" aria-labelledby="dropstart-1">
+                                            <li><a href="" class="dropdown-item">Element 1</a></li>
+                                            <li><a href="" class="dropdown-item">Element 2</a></li>
+                                            <li><a href="" class="dropdown-item">Element 3</a></li>
+                                        </ul>
+                                    
+                                    </div>
+
+                                    <!--DropDown END-->
+                                    
+                                    <div class="dropend">
+                                        <button 
+                                        class="btn btn-primary dropdown-toggle"
+                                        type="button"
+                                        id="dropend-1"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                        >
+                                            DropEnd
+                                        </button>
+                                    
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropend-1">
+                                            <li><a href="" class="dropdown-item">Element 1</a></li>
+                                            <li><a href="" class="dropdown-item">Element 2</a></li>
+                                            <li><a href="" class="dropdown-item">Element 3</a></li>
+                                        </ul>
+                                    
+                                    </div>
+                                </div>
+
+                    </div>
+                    <hr class="mt-3">
+                    <div class="col">
+                        <!--DropDown Content-->
+                                    
+                        <div class="dropdown">
+                            <button 
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropstart-custom"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            >
+                                DropDownl
+                            </button>
+                        
+                            <ul class="dropdown-menu" aria-labelledby="dropstart-custom">
+                                <li class="dropdown-header">
+                                    <h6>Header</h6>
+                                </li>
+                                <hr>
+                                <li><a href="" class="dropdown-item">Element 1</a></li>
+                                
+                                <li><a href="" class="dropdown-item">Element 2</a></li>
+                                
+                                <li><a href="" class="dropdown-item">Element 3</a></li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
