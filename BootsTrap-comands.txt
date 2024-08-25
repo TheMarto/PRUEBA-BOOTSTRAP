@@ -222,7 +222,10 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     list-group-item-primary y color que querramos para el li o a
     se pueden crear etiquetas bonitas con esto y links (ver list-group)
 
-        //
+        //Modal (como un popup)
+    button que abre el div que contiene al modal que es una caja de dialogo
+    son varias cosas asi que mejor ver de modal.html
+
 
 
 
