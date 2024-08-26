@@ -226,6 +226,32 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     button que abre el div que contiene al modal que es una caja de dialogo
     son varias cosas asi que mejor ver de modal.html
 
+        //NavBar o barra de navegación
+        part one: navs.html y part two navbar.html
+    ul con nav y li o a con botones que son nav-item y nav-link respectivamente
+    flex-column para  que sea en verticalmente
+    active para que la actual parezca como que está abierta 
+    nav-tabs, nav-pills, nav-pills nav-fill para que se vean bonito como ficheros
+
+    navbar navbar-expand-sm navbar-dark bg-dark fixed-top con eso en el nav hacemos que quede arriba, en negro y que use el expand cuando se haga pequeño
+    container-fluid habarca todo el espacio
+    el button menu mejor verlo en navbar.html
+    collapse navbar-collapse para ul y navbar-item y navbar-link para li y a respectivamente así hace el collapse dentro del nav (para colapsarlo al hacer movile)
+
+
+        //Offcanvas o tarjetas desplegables
+    Es mejor ver el codigo de offcanvas.html ya que hay muchos atriburos
+    dentro del div de la tarjeta desplegable:
+    offcanvas offcanvas-start, end, top y bottom para cambiar la disposición
+    data-bs-backdrop="true" para que no se vea gris al verlo 
+    data-bs-scroll en true también en este div para poder seguir scrolenado aunque esté oscuro
+
+    luego para titulo div con offcanvas-header
+    para cuerpo offcanvas-body
+    para boton de cerrar mejor ver html
+
+
+    //
 
 
 
