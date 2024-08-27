@@ -251,7 +251,15 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     para boton de cerrar mejor ver html
 
 
-    //
+        //Pagination o botones de navegacion de prev, 1, 2, 3, y siguente
+    pagination para ul, page-item para li y page-link para a
+    se puede usar disabled para que no se pueda tocar
+    active para marcarlo como pagina donde estamos
+    tamaño grande o pequeño con pagination-lg o sm
+
+
+        //PopOver o mensaje sobre paguina
+    
 
 
 
