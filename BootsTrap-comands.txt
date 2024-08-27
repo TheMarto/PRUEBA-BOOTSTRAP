@@ -267,7 +267,12 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     y data-bs-trigger="focus" para que toques en cualquier parte y se quite el mensaje
     Nota: hay que poner un scrip para inicializarlo que está al final del popover.html
 
-        //
+        //Progress Bar o barra de carga
+    progress en div principal
+    en siguente div progress-bar y como plus progress-bar-striped progress-bar-animated para animarlo
+    bg-secondary (otro color tambien) para cambiar color
+    se usa role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"(el ultimo varia para cargar)
+    con style en div principal y height para aumentar tamaño o quitarlo y dejar linea
 
 
 
