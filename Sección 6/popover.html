@@ -13,10 +13,72 @@
 <body>
     
     <div class="container">
-        <div class="row">
-         //codigo
+        <div class="row" style="margin-top: 200px;">
+            <div class="col">
+                <button
+                    class="btn btn-primary"
+                    data-bs-toggle="popover"
+                    title="popover"
+                    data-bs-content="The Marto, no solo un nombre sino un estilo..."
+                    data-bs-placement="top"
+                >
+                    PopOver Top
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    data-bs-toggle="popover"
+                    title="popover"
+                    data-bs-content="The Marto, no solo un nombre sino un estilo..."
+                    data-bs-placement="bottom"
+                >
+                    PopOver Top
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    data-bs-toggle="popover"
+                    title="popover"
+                    data-bs-content="The Marto, no solo un nombre sino un estilo..."
+                    data-bs-placement="left"
+                >
+                    PopOver Top
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    data-bs-toggle="popover"
+                    title="popover"
+                    data-bs-content="The Marto, not only a name, is a life style..."
+                    data-bs-placement="right"
+                >
+                    PopOver Top
+                </button>
+            </div>    
+            
+            <hr class="mt-5">
+
+            <div class="col-12">
+                <button
+                    class="btn btn-primary"
+                    data-bs-toggle="popover"
+                    title="popover"
+                    data-bs-content="The Marto, no solo un nombre sino un estilo..."
+                    data-bs-placement="right"
+                    data-bs-trigger="focus"
+                >
+                    PopOver Top
+                </button>
+            </div>
         </div>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+
+    </script>
 </body>
 </html>

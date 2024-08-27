@@ -259,7 +259,16 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
 
 
         //PopOver o mensaje sobre paguina
-    
+    button con class como siembre, 
+    data-bs-toggle="popover", 
+    title (nombre de titulo), 
+    data-bs-content (contenido), 
+    data-bs-placement="right" (depende donde sale el mensaje)
+    y data-bs-trigger="focus" para que toques en cualquier parte y se quite el mensaje
+    Nota: hay que poner un scrip para inicializarlo que está al final del popover.html
+
+        //
+
 
 
 
