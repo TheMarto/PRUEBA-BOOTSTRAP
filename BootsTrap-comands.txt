@@ -274,6 +274,20 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     se usa role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"(el ultimo varia para cargar)
     con style en div principal y height para aumentar tamaño o quitarlo y dejar linea
 
+        //Spinners o casi circulo de carga
+    spinner-border en el div principal y text-primary o color para cambiarlo
+    lo del visually-hidden es para personas con problemas visuales
+    spinner-grow es la otra opción que es un circulo completo que se hace grande y desaparece en loop
+
+        //Toast o Notificaciones emergentes
+    toast show para el div principal y para verlo
+    además bg-danger text-white cambiamos fondo y color de texto
+    toast-header para div del titulo
+    me-auto o me-2 para que quede al final
+    btn-close para boton con X y btn-close-white para hacerlo blanco en vez de negro
+    toast-body para div del body
+
+    //
 
 
 
