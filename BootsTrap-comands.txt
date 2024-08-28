@@ -287,6 +287,11 @@ la mayoría es copiar y peguear del codigo acordeon.html ya que es extenso cambi
     btn-close para boton con X y btn-close-white para hacerlo blanco en vez de negro
     toast-body para div del body
 
+    //tooltips o dato de herramiento
+data-bs-toggle="tooltip" ,data-bs-placement="top" y title="Tooltop TOP" para el button
+además hay que agragar el scropt de tooltips que se encuentra en la pagina de bs
+cambiando el placement cambiamos de lugar donde aparece
+
     //
 
 

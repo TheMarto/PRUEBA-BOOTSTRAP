@@ -13,12 +13,69 @@
 <body>
     
     <div class="container">
-        <div class="row mt-3">
-         <div class="col">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h1 class="text-center">TOOLTIPS</h1>
+                <hr class="mt-3 mb-3">
+                <button 
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Tooltop TOP"
+                >  
+                Tooltip at the Top
+                </button>
+
+                <hr class="mt-3">
+
+                <button 
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Tooltop BOTTOM"
+                >  
+                Tooltip at the BOTTOM
+                </button>
+
+            <hr class="mt-3">
+
+            <button 
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                title="Tooltop LEFT"
+            >  
+            Tooltip on the LEFT
+            </button>
+
+            <hr class="mt-3">
+
+            <button 
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title="Tooltop RIGHT"
+            >  
+            Tooltip on the RIGHT
+            </button>
+
+            <hr>
             
-         </div>
+            </div>
+
         </div>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 </body>
 </html>
