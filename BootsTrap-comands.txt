@@ -292,8 +292,15 @@ data-bs-toggle="tooltip" ,data-bs-placement="top" y title="Tooltop TOP" para el 
 además hay que agragar el scropt de tooltips que se encuentra en la pagina de bs
 cambiando el placement cambiamos de lugar donde aparece
 
-    //
+    //FLEXBOX
+Responsive: con d-flex se agrega en el medio como d-sm-flex
+            con d-inline-flex para el tamaño agregamos luego de la d como d-sm-inline-flex
 
+            para flex-*-row y flex-*-column también cambias la * por sm/md/lg/xl/xxl
+            y con el -reverse lo mismo
+            
+            para justify-content-*-start/end/center/between/around lo mismo cambiamos el * por tamaño
+            
 
 
 
