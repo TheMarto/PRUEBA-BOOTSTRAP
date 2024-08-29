@@ -296,11 +296,23 @@ cambiando el placement cambiamos de lugar donde aparece
 Responsive: con d-flex se agrega en el medio como d-sm-flex
             con d-inline-flex para el tamaño agregamos luego de la d como d-sm-inline-flex
 
+Alinear en horizontalmente
             para flex-*-row y flex-*-column también cambias la * por sm/md/lg/xl/xxl
             y con el -reverse lo mismo
             
             para justify-content-*-start/end/center/between/around lo mismo cambiamos el * por tamaño
-            
+
+
+Alinear en vertical
+                    align-items-*-start/center/end/baseline/strech y el * por el tamaño (alinear elemento en general)
+                    flex-*-fill y el * por el tamaño (usa el mayor tamaño posible)
+                    align-self-*-start//center/end/baseline/strech y el * por el tamaño (alinear elemento por unidad)
+
+                    me-auto espacio contra los de atrás maximo
+                    ms-auto espacio contra los de delante maximo
+                    mb-auto espacio contra los de abajo maximo
+                    mt-auto espacio contra los de arriba maximo
+
 
 
 

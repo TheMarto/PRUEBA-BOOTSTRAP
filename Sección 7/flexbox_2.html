@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbos-Two</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .contenedor{
+            margin-bottom: 20px;
+            background: #0d6efd;
+            color: #fff;
+            height: 100px;
+        }
+        .contenedor > div {
+            background: rgb(255,255,255, .2);
+            padding: 15px;
+            border: 1px solid #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h4>FILL</h4>
+                <hr class="mt-3">
+
+                <div class="contenedor d-flex align-items-start">
+                    <div>The Marto: no solo un wiski, un elixir</div>
+                    <div class="flex-fill">.flex-fill</div>
+                    <div class="flex-fill">.flex-fill</div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-3">
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h4>Align Items</h4>
+                <hr>
+
+                <p>.align-items-start</p>
+                <div class="contenedor d-flex align-items-start">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+                <hr>
+                <p>.align-items-center</p>
+                <div class="contenedor d-flex align-items-center">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+                <hr>
+                <p>.align-items-end</p>
+                <div class="contenedor d-flex align-items-end">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+                <hr>
+                <p>.align-items-baseline</p>
+                <div class="contenedor d-flex align-items-baseline">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+                <hr>
+                <p>.align-items-strech</p>
+                <div class="contenedor d-flex align-items-strech">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-3">
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <h4>Align Self</h4>
+                <hr>
+                <div class="contenedor d-flex">
+                    <div class="align-self-start">.align-self-start</div>
+                    <div class="align-self-center">.align-self-center</div>
+                    <div class="align-self-end">.align-self-end</div>
+                    <div class="align-self-baseline">.align-self-baseline</div>
+                    <div class="align-self-strech">.align-self-strech</div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-3">
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <h4>Auto Margin</h4>
+                <hr>
+                <p>.me-auto</p>
+                <div class="contenedor d-flex justify-content-end">
+                    <div class="me-auto">.me-auto</div>
+                    <div class="">Caja 2</div>
+                    <div class="">Caja 3</div>
+                </div>
+                <hr>
+                <p>.ms-auto</p>
+                <div class="contenedor d-flex justify-content-start">
+                    <div class="">Caja 1</div>
+                    <div class="">Caja 2</div>
+                    <div class="ms-auto">.ms-auto</div>
+                </div>
+                <hr>
+                <p>.mb-auto</p>
+                <div class="contenedor d-flex flex-column align-items-start" style="height: 250px;">
+                    <div class="mb-auto">.mb-auto</div>
+                    <div class="">caja 2</div>
+                    <div class="">caja 3</div>
+                </div>
+                <hr>
+                <p>.mt-auto</p>
+                <div class="contenedor d-flex flex-column align-items-center" style="height: 250px;">
+                    <div class="">caja 1</div>
+                    <div class="">caja 2</div>
+                    <div class="mt-auto">.mt-auto</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
