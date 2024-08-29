@@ -313,6 +313,15 @@ Alinear en vertical
                     mb-auto espacio contra los de abajo maximo
                     mt-auto espacio contra los de arriba maximo
 
+Fila:
+                    para que entre en una sola sila usamos flex-nowrap
+                    para que no importe ir a la fila de abajo usamos flex-wrap y si queremos hacer responsive:
+                        flex-*-wrap donde * es el tamaño
+                    Orden, para cambiarlo usamos order-*-3 (del 1 al 5 solamente) y * el tamaño
+
+Nota: para fila align-item y para varios elementos align-content
+
+
 
 
 
