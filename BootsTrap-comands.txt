@@ -321,7 +321,22 @@ Fila:
 
 Nota: para fila align-item y para varios elementos align-content
 
+Bordes:
+                    border border-danger y el color y lugeo de boder- top, end, bottom or start
+                    border-1 al 5 para el grosor (5 max)
+                    rounded-top, start, bottom, end o solo para lugar de borde
+                    ademas se puede usar rounded-circle para circulo o pill y width para diculo alargado
 
+texto en caja:
+                    overflow- 
+                    auto para tiene scroll,
+                    hidden para ocultar si no encuentra
+                    visible para que si es mas salga sin umportar el contenedores
+                    scroll aparece el scroll aunque no se use
+
+
+Sombras:
+                    shadow-none, nada, sm, lg para el tamano de la somnbra
 
 
 
