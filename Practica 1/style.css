@@ -1,0 +1,76 @@
+body{
+    background: #f2f2f2;
+    font-family: "Pixelify Sans", sans-serif;
+}
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;   
+}
+
+header .logo h2,
+header .logo p{
+    font-size:16px;
+    display: inline-block;
+}
+
+.slider img{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+header .logo .icon{
+    color: #bfbfbf;
+}
+
+header .logo .icon .svg {
+    height: 50px;
+    width: 50pc;
+}
+
+.rotate-svg {
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+header .menu .c-1 { background: #3da5e2;}
+header .menu .c-2 { background: #005385;}
+header .menu .c-3 { background: #003855;}
+
+header .menu .c-1:hover {background: #1ba0ef;}
+header .menu .c-2:hover {background: #00426a;}
+header .menu .c-3:hover {background: #002d44;}
+
+
+/*MAIN*/
+/*Porfolio*/
+.portfolio{
+    border-top: #19ddeb solid 5px ;
+    background: #fff;
+}
+
+.portfolio .title {
+   color: #00eeff; 
+   font-weight: 300;
+}
+
+.portfolio .galery .container-img {
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portfolio .galery .container-img a{
+    background:#19ddeb;
+    display: inline-block;  
+}
+
+.portfolio .galery .container-img img:hover{
+    opacity: .3;
+}
