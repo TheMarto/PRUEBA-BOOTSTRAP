@@ -338,6 +338,20 @@ texto en caja:
 Sombras:
                     shadow-none, nada, sm, lg para el tamano de la somnbra
 
+Espaciados:
+                    p-pading
+                    m-margin
+
+                    t-top
+                    b-bottom
+                    s-start
+                    e-end
+
+                    y- Eje y
+                    x- Eje x
+
+                    w- 25, 50, 75 y 100 para el width
+                    h- 25, 50, 75 y 100 para el height
 
 
 
