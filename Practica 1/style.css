@@ -29,9 +29,9 @@ header .logo .icon .svg {
 }
 
 .rotate-svg {
-    animation: rotate 2s linear infinite;
+    animation: rotate1 1s linear infinite;
 }
-@keyframes rotate {
+@keyframes rotate1 {
     0% {
         transform: rotate(0deg);
     }
@@ -73,4 +73,22 @@ header .menu .c-3:hover {background: #002d44;}
 
 .portfolio .galery .container-img img:hover{
     opacity: .3;
+}
+
+@media screen and (max-width: 992px){
+    .logo{
+        height: 76px;
+    }
+    header .menu {
+        min-height: 76px;
+    }
+    header .menu a {
+        width: 100%;
+    }
+    .portfolio .galery .container-img:nth-child(1) {order: 1;}
+    .portfolio .galery .container-img:nth-child(2) {order: 3;}
+    .portfolio .galery .container-img:nth-child(3) {order: 4;}
+    .portfolio .galery .container-img:nth-child(4) {order: 2;}
+    .portfolio .galery .container-img:nth-child(5) {order: 5;}
+    .portfolio .galery .container-img:nth-child(6) {order: 6;}
 }
