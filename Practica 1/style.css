@@ -92,3 +92,41 @@ header .menu .c-3:hover {background: #002d44;}
     .portfolio .galery .container-img:nth-child(5) {order: 5;}
     .portfolio .galery .container-img:nth-child(6) {order: 6;}
 }
+
+/* Modal Windows */
+
+.modal-dialog {
+    max-width: 1000px;
+}
+
+.about-me .photo .name {
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 3px;;
+}
+
+.about-me .info .title {
+    color: #005385;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about-me .info .label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px;
+}
+
+.about-me .info .progress {
+    background: #005385;
+    border-radius: 0;
+    height: 25px;
+}
+.about-me .info .progress .progess-bar {
+    background: #3da5e2;
+    line-height: 25px;
+    padding-left: 20px;
+}
