@@ -74,7 +74,10 @@ header .menu .c-3:hover {background: #002d44;}
 .portfolio .galery .container-img img:hover{
     opacity: .3;
 }
-
+.social-networks .icon {
+    width: 100px;
+    height: 100px;
+}
 @media screen and (max-width: 992px){
     .logo{
         height: 76px;
@@ -91,6 +94,12 @@ header .menu .c-3:hover {background: #002d44;}
     .portfolio .galery .container-img:nth-child(4) {order: 2;}
     .portfolio .galery .container-img:nth-child(5) {order: 5;}
     .portfolio .galery .container-img:nth-child(6) {order: 6;}
+
+    .social-networks .icon {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
 /* Modal Windows */
@@ -129,4 +138,36 @@ header .menu .c-3:hover {background: #002d44;}
     background: #3da5e2;
     line-height: 25px;
     padding-left: 20px;
+}
+
+
+.social-networks {
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.social-networks .icon {
+
+    color: #fff;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+
+.social-networks .icon svg {
+    height: 40px;
+    width: 40px;
+}
+
+.social-networks .twitter {
+    background: #1da1f2;
+}
+.social-networks .instagram {
+    background: #833ab4;
+}
+.social-networks .google {
+    background: blue;
 }
