@@ -6,3 +6,99 @@ body {
 a {
     text-decoration: none;
 }
+
+
+
+/*------------- Side bar------------*/
+
+/* Rotate for asaid and SVG*/
+
+.rotate-svg {
+    animation: rotate1 2s linear infinite;
+}
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.side-dar {
+    background: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+.side-dar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------LOGO  -------*/
+.side-dar .logo {
+    background: #0275db;
+}
+.side-dar .logo h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+/*-----Menu --------*/
+.side-dar .menu a {
+    display: block;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.side-dar .menu a:hover {
+    background: #35ae6b;
+    color: #fff;
+}
+.side-dar .menu a svg {
+    margin-right: 10px;
+}
+
+
+
+
+
+/* ------------sizes----------*/
+
+/*---------- devices xs------------*/
+@media screen and (max-width: 576px){
+    .side-dar {
+        min-height: auto;
+    }
+}
+
+
+/*---------- devices md------------*/
+@media screen and (max-width: 768px){
+    .side-dar .menu a svg {
+        display: none;
+    }
+}
+
+/*---------- devices lg------------*/
+@media screen and (max-width: 992px){
+    .side-dar .logo {
+        display: none;
+    }
+}
+
+/*---------- devices xl------------*/
+@media screen and (max-width: 1200px){
+    .side-dar {
+        min-width: auto;
+    }
+}
+
+/*---------- devices md------------*/
+@media screen and (max-width: 768px){}
+
+/*---------- devices xxl------------*/
+@media screen and (max-width: 1400px){}
