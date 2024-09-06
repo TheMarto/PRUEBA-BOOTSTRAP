@@ -1,0 +1,74 @@
+:root {
+    --text: rgba(255, 255, 255, .7);
+    --blanco: #fff;
+    --input: #3a3b3c;
+    --input-hover: #2d88ff;
+    --activ: #2d88ff;
+    --gray-light: #b0b3b8;
+    --background-content: #242526;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #18191a;
+    color: var(--text);
+}
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+/*----------Header--------------*/
+/*------------loco and search--------*/
+header {
+    background: var(--background-content);
+}
+header .logo {
+    display: inline-block;
+}
+header .logo svg {
+    color: #2d88ff;
+    width: 45px;
+    height: auto;
+}
+header .search-bar {
+    position: relative;
+    width: 100%;
+}
+header .search-bar input {
+    width: 300px;
+    background: var(--input);
+    padding-inline-start: 40px;
+}
+header .search-bar input:hover {
+    background: var(--input-hover);
+    color: #fff;
+}
+
+
+/*--------center----------*/
+header .menu a {
+    display: inline-block;
+    padding: 10px 40px;
+}
+header .menu a:hover {
+    color: var(--text);
+    background: var(--input);
+    border-radius: 5px;
+}
+header .menu a svg {
+    width: 25px;
+    height: 25px;
+}
+header .menu .active {
+    border-bottom: 4px solid var(--activ);
+    color: var(--activ);
+}
+header .menu .active:hover {
+    background: none;
+    color: var(--activ);
+}
+
