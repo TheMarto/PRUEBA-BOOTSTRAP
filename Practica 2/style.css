@@ -63,6 +63,87 @@ a {
 }
 
 
+/*-------Main---------*/
+.main {
+    padding-top: 40px;
+}
+.main .column {
+    padding:0 40px;
+}
+.main .title {
+    color: #262a34;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.main .widget {
+    margin-bottom: 40px;
+}
+.main .statistics .boxes {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .2);
+}
+.main .statistics .box {
+    background: #fff;
+    border: 1px solid #a3a3a3;
+    padding: 40px 20px;
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+}
+.main .statistics .box:hover {
+    background: #35ae6b;
+    color: #fff;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 1);
+}
+.commet {
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .4);
+}
+.commet:hover {
+    
+    box-shadow: 10px 4px 3px 4px rgba(0, 0, 0, .4);
+}
+.comment2 img {
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bottom-comment svg:hover {
+    animation: rotate2 2s linear infinite;
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.side-dar {
+    background: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+.side-dar a {
+    color: #fff;
+    text-decoration: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
