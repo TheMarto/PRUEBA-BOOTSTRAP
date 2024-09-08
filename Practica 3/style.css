@@ -22,7 +22,7 @@ a {
 }
 
 /*----------Header--------------*/
-/*------------loco and search--------*/
+/*------------logo and search--------*/
 header {
     background: var(--background-content);
 }
@@ -71,4 +71,168 @@ header .menu .active:hover {
     background: none;
     color: var(--activ);
 }
+.svg-rorate {
+    animation: rotate-grid 3s linear infinite;
+}
+@keyframes rotate-grid {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+header .buttons a {
+    background: var(--input);
+    display: inline-flex;
+    border-radius: 100px;
+    min-width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
 
+}
+header .buttons a:hover{
+    background: #4b4d4e;
+    color: var(--text);
+}
+header .buttons .profile {
+    height: 40px;
+    padding: 0 7px;
+    background: none;
+    min-width: max-content;
+}
+header .buttons .profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+/*---aside----*/
+aside {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 60px;
+}
+.links-fast > nav  a {
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+.links-fast > nav  a:hover {
+    background: var(--input-hover);
+}
+.links-fast .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.links-fast .links .me-3 {
+    width: 20px;
+    height: auto;
+}
+.links-fast footer {
+    margin: 40px 0;
+}
+.links-fast footer a {
+    font-size: 10px;
+    margin-right: 7px;
+    color: var(--gray-light);
+}
+.links-fast footer a:hover {
+    color: var(--gray-light);
+}
+
+/*--- Contacts----*/
+
+.contact .section {
+    margin-bottom: 20px;
+}
+.contact .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--gray-light);
+    margin-bottom: 10px;
+}
+.contact .publicity {
+    display: block;
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.contact .publicity img {
+    width: 100%;
+}
+.contact nav a {
+    color: var(--blanco);
+     padding: 10px;
+     border-radius: 5px;
+
+
+}
+.contact nav a:hover {
+    background: var(--input-hover);
+}
+.contact nav a img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---mediaqueries---*/
+@media screen and (max-width: 768px){
+
+}
+
+
+@media screen and (max-width: 992px) {
+    header .menu a {
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+    header .search-bar input {
+        width: 300px
+    }
+    .links-fast {
+        margin-top: 65px;
+    }
+}
+
+
+
+@media screen and (max-with: 1200px) {
+    header .menu a {
+        padding: 10px 20px;
+    }
+    header .search-bar input {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    header .menu a {
+        padding: 10px 20px;
+    }
+    header .search-bar input {
+        width: 300px;
+    }
+}
