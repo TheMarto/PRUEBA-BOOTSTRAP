@@ -184,6 +184,104 @@ aside {
     margin-right: 10px;
 }
 
+/*----Main------*/
+main {
+    padding-top: 70px;
+}
+main .post {
+    background: var(--background-content);
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+     padding: 10px;
+}
+main .post .form {
+    display: flex;
+    justify-self: start;
+}
+main .photo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.photo img {
+    width: 100%;
+}
+main .post .form input {
+    width: 100%;
+    border: none;
+    background: var(--input);
+    height: 40px;
+    border-radius: 100px;
+    padding: 0 20px;
+}
+main .post .buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+}
+main .post .buttons a:hover {
+    background: var(--input-hover);
+    color: var(--text);
+}
+
+
+/*--- publications ----*/
+.publications .post .header .data .name {
+    color: var(--blanco);
+}
+.publications .post .header .data .hour {
+    color: var(--text);
+    font-size: 14px;
+}
+.publications .post .header .data .hour:hover {
+    color: var(--text);
+}
+.publications .post .header .data .name:hover {
+    color: var(--text);
+    text-decoration: underline;
+}
+main .post .body p {
+    margin-bottom: 10px;
+    color: var(--blanco);
+}
+main .post .body img {
+    width: 100%;
+}
+main .post .comments {
+    padding: 10px;
+}
+main .post .comments .likes svg {
+    margin-right: 10px;
+    color: #e75151;
+}
+main .post .comments a,
+main .post .comments .likes {
+    color: var(--text);
+}
+main .post .comments .comments:hover {
+    text-decoration: underline;
+}
+main .post .buttons button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: var(--text);
+    padding: 10px;
+    border-radius: 3px;
+}
+main .post .buttons button:hover {
+    background: #3a3b3c;
+}
+
+
+
 
 
 
