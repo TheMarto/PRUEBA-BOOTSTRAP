@@ -7,7 +7,9 @@
     <title>PROJECT-TREE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
-
+        .product:hover{
+            background: rgba(103, 255, 103, .2);
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -20,7 +22,8 @@
             </div>
         </div>
 <!--Form-->
-        <div class="row">
+        <div class="row mb-5">
+<!--Left Part-->
             <div class="col-12 col-md-8">
 <!--Mailing Address-->
                 <h4 class="mb-3">Mailing Addess</h4>
@@ -28,21 +31,21 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-3 form-floating">
                             <input type="text" class="form-control text-center" placeholder="Name" id="Name">
-                            <label for="">Name</label>
+                            <label for="" class="ms-2">Name</label>
                         </div>
                         <div class="col-12 col-sm-6 mb-3 form-floating">
                             <input type="text" name="" id="" class="form-control text-center" placeholder="email">
-                            <label for="">Email</label>
+                            <label for="" class="ms-2">Email</label>
                         </div>
                     </div>
 <!--User-->
                     <div class="row mb-3">
                         <div class="col-12">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
+                            <div class="input-group d-flex justify-content-center">
+                                <div class="input-group-prepend col-1 ">
                                     <span class="input-group-text" style="height: 100%;">@</span>
                                 </div>
-                                <div class="form-floating" style="width: 94%;">
+                                <div class="form-floating col-11">
                                     <input type="text" name="" id="user" class="form-control" placeholder="User">
                                     <label for="user" class="">User</label>
                                 </div>
@@ -76,8 +79,8 @@
                             </div>
                         </div>
                     </div>
-<!--country, state and CP-->
-                    <div class="row">
+<!--country, state and ZipCode-->
+                    <div class="row mb-3">
                         <div class="col-12 col-sm-4 mb-3">
                             <label for="coutry" class="form-label">Country</label>
                             <select name="Country" id="Country" class="form-select">
@@ -90,16 +93,159 @@
                                 <option value="Mexico">Mexico</option>
                             </select>
                         </div>
-                        <div class="col-12 col-sm-4 mb-3"></div>
-                        <div class="col-12 col-sm-4 mb-3"></div>
+                        <div class="col-12 col-sm-4 mb-3">
+                            <label for="coutry" class="form-label">State</label>
+                            <select name="Country" id="Country" class="form-select">
+                                <option value="state">State</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Hamsterdam">Hamsterdam</option>
+                                <option value="Dublin">Dublin</option>
+                                <option value="Buenso Aires">Buenso Aires</option>
+                                <option value="New York">New York</option>
+                                <option value="Mexico">Mexico</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-3">
+                            <label for="CP" class="form-label">Zip Code</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <hr class="mb-3">
+<!--Save and direction-->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-switch">
+                                <input type="checkbox" class="form-check-input" id="same-billing">
+                                <label for="same-dbilling" class="form-label ms-2">Same billing addess</label>
+                            </div>
+                            <div class="form-switch">
+                                <input type="checkbox" class="form-check-input" id="save-info">
+                                <label for="save-info" class="form-label ms-2">Save information for the next purchase</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="mb-3">
+<!--Pay mode select-->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="form-switch">
+                                <input type="radio" name="paymode" class="form-check-input" id="paymode">
+                                <label for="paymode" class="form-label ms-2">Credit card</label>
+                            </div>
+                            <div class="form-switch">
+                                <input type="radio" name="paymode" class="form-check-input" id="debit">
+                                <label for="paymode" class="form-label ms-2">Debit card</label>
+                            </div>
+                            <div class="form-switch">
+                                <input type="radio" name="paymode" class="form-check-input" id="paypal">
+                                <label for="paymode" class="form-label ms-2">Paypal</label>
+                            </div>
+                        </div>
+                    </div>
+
+<!--card data-->
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="card Name">
+                                <label for="">Card Name</label>                                
+                            </div>
+                            <label for="" class="form-label text-muted ms-3">Full Name as show on the card</label>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="card number">
+                                <label for="">Card Number</label>                                
+                            </div>
+                        </div>                        
+                        <div class="col-12 col-sm-6 mb-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Expiration">
+                                <label for="">Expiration</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="CCV">
+                                <label for="">CCV</label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mb-3">
+<!--Buttom for continius-->
+                    <div class="row mb-3">
+                        <div class="col-12 d-flex align-content-center justify-content-center mb-5">
+                            <div class="col-3 text-center d-grid">
+                                <button class="btn btn-primary btn-lg">Buy Now!</button>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
-
+<!--Right Part-->
+            <div class="col-12 col-md-4">
+                <h4 class="mb-3 d-flex align-content-center justify-content-between">
+                    <span class="text-muted">Basket</span>
+                    <span class="badge bg-secondary rounded-pill">3</span>
+                </h4>
+<!--Product list-->
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between product">
+                        <div>
+                            <h6 class="my-0">Product Name</h6>
+                            <small class="text-muted">Small description</small>
+                        </div>
+                        <span class="text-muted">$142.22</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between product">
+                        <div>
+                            <h6 class="my-0">Product Name</h6>
+                            <small class="text-muted">Small description</small>
+                        </div>
+                        <span class="text-muted">$18.53</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between product">
+                        <div>
+                            <h6 class="my-0">Product Name</h6>
+                            <small class="text-muted">Small description</small>
+                        </div>
+                        <span class="text-muted">$64.88</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between bg-success">
+                        <div>
+                            <h6 class="my-0">Total price</h6>
+                            <small class="text-white">Small description</small>
+                        </div>
+                        <span class="text-white">$225.63</span>
+                    </li>
+                </ul>
+                <hr class="mb-3">
+<!--Coupon-->
+                <div class="input-group d-flex justify-content-center">
+                    <div class="form-floating col-10">
+                        <input type="text" class="input-group-item form-control" placeholder="coupon">
+                        <label for="">Coupon</label>
+                    </div>
+                    <div class="input-group-prepend col-2">
+                        <button class="input-group-text btn btn-secondary" style="height: 100%; width: 100%;">Swap</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
+        <hr class="mb-3">
+<!--Footer-->
+        <footer class="row text-center">
+            <div class="col-12">
+                <p class="text-muted">© 2017-2024 Company Name</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="m-3">Privacy Statement</a>
+                <a href="#" class="m-3">Terms & Conditions</a>
+                <a href="#" class="m-3">Soport</a>
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
